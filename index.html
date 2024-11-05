@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Title</title>
+    <meta name="description" content="Brief description of the page content">
+    <link rel="stylesheet" href="index.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+
+<main>
+    <!-- Main content of the page goes here -->
+    <section>
+        <h2>Image Generator</h2>
+        <p>Please Describe what image you want to have?</p>
+        <input id="input" type="text" placeholder="Your image prompt"  />
+        <input id="button" type="button" value="Generate"/>
+        <img  id="img" />
+        <button id="downloadButton" style="display: none;">Download Image</button>
+        <div>
+            <img style="display: none;"  id="loading" src="https://i.pinimg.com/originals/6a/ea/10/6aea10bff720c86ed8faa02f2cf6e211.gif" />
+        </div>
+    </section>
+</main>
+
+
+
+<script src="index.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
